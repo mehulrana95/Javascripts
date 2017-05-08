@@ -74,6 +74,16 @@
 
 // for loop
 
-for (var count = 1; count <= 10; count++) {
-  document.write(" " + count + "<br>");
+// for (var count = 1; count <= 10; count++) {
+//   document.write(" " + count + "<br>");
+// }
+
+
+// functions
+
+function sayHello(){
+
+  document.getElementById("hello").innerHTML="Hi";
 }
+
+sayHello();
