@@ -1,8 +1,13 @@
+// Concatination
+
+
 // var myName = "Mehul";
 // var mySname = "Rana";
 //
 // var concat = myName + " " + mySname;
 
+
+// if else loop
 
 
 // var a = 10;
@@ -16,27 +21,52 @@
 // }
 
 
+// Ternary
+
+
 // var a = 100;
 // var b = 20;
 //
 // var c = (a > b) ? alert("A is greater") : alert("A is less");
 
-var fruit = "banana";
 
-switch (fruit) {
-    case "apple":
-        document.write("Apple")
-        break;
+// switch
 
-    case "banana":
-        document.write("Banana")
-        break;
 
-    case "orange":
-        document.write("orange")
-        break;
+// var fruit = "banana";
+//
+// switch (fruit) {
+//     case "apple":
+//         document.write("Apple")
+//         break;
+//
+//     case "banana":
+//         document.write("Banana")
+//         break;
+//
+//     case "orange":
+//         document.write("orange")
+//         break;
+//
+//     default:
+//         document.write("Out of stock");
+//
+// }
 
-    default:
-        document.write("Out of stock");
 
-}
+// while , do while loop
+
+
+var count = 0
+
+// while (count < 10) {
+//   document.write(count + " ");
+//   document.write("Hello World <br>");
+//   count++;
+// }
+
+do {
+  document.write(count + " ");
+  document.write("Hello World <br>");
+  count++;
+} while (count < 5);
