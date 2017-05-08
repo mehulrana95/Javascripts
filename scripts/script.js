@@ -1,15 +1,15 @@
-// Concatination
+/* -------------------- Concatination -------------------- */
 
 
 // var myName = "Mehul";
 // var mySname = "Rana";
 //
 // var concat = myName + " " + mySname;
-
-
-// if else loop
-
-
+//
+//
+/* -------------------- if else loop -------------------- */
+//
+//
 // var a = 10;
 // var b = 5;
 //
@@ -21,7 +21,7 @@
 // }
 
 
-// Ternary
+/* -------------------- Ternary -------------------- */
 
 
 // var a = 100;
@@ -30,7 +30,7 @@
 // var c = (a > b) ? alert("A is greater") : alert("A is less");
 
 
-// switch
+/* -------------------- switch -------------------- */
 
 
 // var fruit = "banana";
@@ -54,17 +54,17 @@
 // }
 
 
-// while , do while loop
+/* -------------------- while , do while loop -------------------- */
 
 
 // var count = 0
-
+//
 // while (count < 10) {
 //   document.write(count + " ");
 //   document.write("Hello World <br>");
 //   count++;
 // }
-
+//
 // do {
 //   document.write(count + " ");
 //   document.write("Hello World <br>");
@@ -72,18 +72,29 @@
 // } while (count < 5);
 
 
-// for loop
+/* -------------------- for loop -------------------- */
 
 // for (var count = 1; count <= 10; count++) {
 //   document.write(" " + count + "<br>");
 // }
 
 
-// functions
+/* -------------------- functions -------------------- */
 
-function sayHello(){
+// function sayHello(){
+//   document.getElementById("hello").innerHTML="Hi";
+// }
+//
+// sayHello();
 
-  document.getElementById("hello").innerHTML="Hi";
+
+/* -------------------- Fuction integrated to inner HTML -------------------- */
+
+function calc(){
+  var w = document.getElementById("width").value;
+  var h = document.getElementById("height").value;
+
+  var area = w * h;
+
+  document.getElementById("answer").value = area;
 }
-
-sayHello();

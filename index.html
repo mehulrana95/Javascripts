@@ -4,10 +4,48 @@
 <head>
     <meta charset="utf-8">
     <title>Javascripts</title>
+    <style media="screen">
+        table,
+        td,
+        th {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 40%;
+            font-family: 'Arial';
+        }
+
+        th,
+        td {
+            padding: 10px;
+        }
+        input{
+          width: 100%;
+        }
+    </style>
 </head>
 
 <body>
     <h1 id="hello"></h1>
+<form>
+  <table>
+    <tr>
+      <td>Width:</td>
+      <td><input type="number" id="width"></td>
+    </tr>
+    <tr>
+      <td>Height:</td>
+      <td><input type="number" id="height"></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Get Value" onclick="calc()"></td>
+      <td><input type="text" id="answer"></td>
+    </tr>
+  </table>
+</form>
     <script type="text/javascript" lang="javascript" src="scripts/script.js"></script>
 </body>
 
