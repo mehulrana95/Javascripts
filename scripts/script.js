@@ -57,7 +57,7 @@
 // while , do while loop
 
 
-var count = 0
+// var count = 0
 
 // while (count < 10) {
 //   document.write(count + " ");
@@ -65,8 +65,15 @@ var count = 0
 //   count++;
 // }
 
-do {
-  document.write(count + " ");
-  document.write("Hello World <br>");
-  count++;
-} while (count < 5);
+// do {
+//   document.write(count + " ");
+//   document.write("Hello World <br>");
+//   count++;
+// } while (count < 5);
+
+
+// for loop
+
+for (var count = 1; count <= 10; count++) {
+  document.write(" " + count + "<br>");
+}
