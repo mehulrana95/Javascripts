@@ -111,16 +111,28 @@
 // document.write(studentName[0]);
 
 
-var value = Math.floor(Math.random() * 6) + 1;
-document.getElementById("hello").innerHTML = value;
-console.log(value);
-
-
-var num = "50012";
-var convertnum = Number(num);  // number() function converts string to number
-document.write(convertnum  + "<br>");
+// var value = Math.floor(Math.random() * 6) + 1;
+// document.getElementById("hello").innerHTML = value;
+// console.log(value);
+//
+//
+// var num = "50012";
+// var convertnum = Number(num);  // number() function converts string to number
+// document.write(convertnum  + "<br>");
 
 var sent = "This is a sentence that has \" inverted closing quotes ";
 var a = sent.length;
-document.write("<br>" + sent + " - " + a);
+document.write("<br>" + sent + " - " + a  + "<br>");
 console.log(a);
+
+var b = sent.charAt(2);  //Displays Character at position 2 i.e 0,1,2 - i
+document.write("<br>" + b + "<br>");
+
+var c = sent.search("a");
+document.write("<br>" + c + "<br>" );
+
+var date = new Date();
+var d1 = date.getDate();
+var d2 = date.getMonth();
+var d3 = date.getFullYear();
+document.write(d1 + d2 + d3);
