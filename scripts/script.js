@@ -88,13 +88,39 @@
 // sayHello();
 
 
-/* -------------------- Fuction integrated to inner HTML -------------------- */
+/* -------------------- Function integrated to inner HTML -------------------- */
 
-function calc(){
-  var w = document.getElementById("width").value;
-  var h = document.getElementById("height").value;
+// function calc(){
+//   var w = document.getElementById("width").value;
+//   var h = document.getElementById("height").value;
+//
+//   var area = w * h;
+//
+//   document.getElementById("answer").value = area;
+// }
 
-  var area = w * h;
 
-  document.getElementById("answer").value = area;
-}
+/* -------------------- Array -------------------- */
+
+
+// var studentName = [];
+//
+// studentName[0] = "Mehul";
+// studentName[1] = "Rana";
+//
+// document.write(studentName[0]);
+
+
+var value = Math.floor(Math.random() * 6) + 1;
+document.getElementById("hello").innerHTML = value;
+console.log(value);
+
+
+var num = "50012";
+var convertnum = Number(num);  // number() function converts string to number
+document.write(convertnum  + "<br>");
+
+var sent = "This is a sentence that has \" inverted closing quotes ";
+var a = sent.length;
+document.write("<br>" + sent + " - " + a);
+console.log(a);
